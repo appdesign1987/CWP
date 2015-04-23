@@ -1,4 +1,4 @@
-FROM centos:6.0
+FROM tianon/centos:6.5
 
 RUN yum -y install wget
 RUN yum -y update
